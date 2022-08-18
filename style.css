@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Alata", sans-serif;
+}
+
+.container {
+  width: 650px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+  background-color: papayawhip;
+  padding: 25px 15px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.foto {
+  border-radius: 100%;
+}
+
+.fullname {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.role {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.about {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 14px 0;
+}
+
+.link a {
+  text-decoration: none;
+}
+
+.link img {
+  width: 30px;
+  height: 30px;
+  margin: 0 14px;
+}
+
+.contact {
+  border-radius: 20px;
+  border: none;
+  padding: 7px 14px;
+  background-color: tomato;
+  color: white;
+  margin: 14px 0;
+  cursor: pointer;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.skill {
+  border-radius: 20px;
+  border: none;
+  padding: 7px 14px;
+  background-color: white;
+  cursor: pointer;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.skill a {
+  color: tomato;
+  text-decoration: none;
+}
+
+.home {
+  border-radius: 20px;
+  border: none;
+  padding: 7px 14px;
+  background-color: white;
+  margin: 14px 0;
+  cursor: pointer;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.home a {
+  color: tomato;
+  text-decoration: none;
+}
